@@ -1,0 +1,145 @@
+[
+  {
+    "_id": {
+      "$oid": "65831bbafde52e4cd69f441d"
+    },
+    "name": "Perico",
+    "lastName": "De los Palotes",
+    "email": "perico@delospalotes.com",
+    "password": "$2b$10$ZwgBFJXYwPe6U66kX6o99eJMBZIpfUVQVoR8YL2ILEOh.jyCw7w8a",
+    "date": {
+      "$date": "2023-12-20T16:52:10.261Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831bfefde52e4cd69f441f"
+    },
+    "name": "Vinicius",
+    "lastName": "Junior",
+    "email": "Vinicius@Junior.com",
+    "password": "$2b$10$Kz4O2i/KrnY1GjrmwR97BOC57VqdBgXsJnUTMFqWtRfk//pZMVRTa",
+    "date": {
+      "$date": "2023-12-20T16:53:18.452Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c16fde52e4cd69f4421"
+    },
+    "name": "Hey",
+    "lastName": "Jude",
+    "email": "Hey@Jude.com",
+    "password": "$2b$10$bKQiLosufYsu0OZe6IBLve3ao6ENl0h8JfU2hvnLFoSeqMqI0CXrm",
+    "date": {
+      "$date": "2023-12-20T16:53:42.925Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c26fde52e4cd69f4423"
+    },
+    "name": "Jose",
+    "lastName": "Mourinho",
+    "email": "Jose@Mourinho.com",
+    "password": "$2b$10$EHII2yX06P6jPUrElhqGiOrETrNERZt8aYwr42iSzAW/MgPkHWDPW",
+    "date": {
+      "$date": "2023-12-20T16:53:58.024Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c38fde52e4cd69f4425"
+    },
+    "name": "Steve",
+    "lastName": "Aoki",
+    "email": "Steve@Aoki.com",
+    "password": "$2b$10$0mUHY9SyJWCKzgyD/vrsUOIbf6nfKxpMUsixJsN/jhwjdEmtyCOsm",
+    "date": {
+      "$date": "2023-12-20T16:54:16.921Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c44fde52e4cd69f4427"
+    },
+    "name": "Carletto",
+    "lastName": "Anccelotti",
+    "email": "Steve@Aoki.com",
+    "password": "$2b$10$G4elySTkSxLAyfZG8SOkW.82o0xujcYcGOzb6I4Hmm.VCFVvUsqHC",
+    "date": {
+      "$date": "2023-12-20T16:54:28.434Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c53fde52e4cd69f4429"
+    },
+    "name": "Florentino",
+    "lastName": "Perez",
+    "email": "Florentino@Perez.com",
+    "password": "$2b$10$iqpNGWujqanAj0fNDsL7j.to2E8bi0CAcwFfA3bYTKOawdyImPDyS",
+    "date": {
+      "$date": "2023-12-20T16:54:43.064Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c64fde52e4cd69f442b"
+    },
+    "name": "Kylian",
+    "lastName": "Mbappe",
+    "email": "Kylian@Mbappe.com",
+    "password": "$2b$10$WlPRw5hV6/bypQ2bEALhjOCyoaEI5Y6zOqSZOmI.dQAECKBWaH2MC",
+    "date": {
+      "$date": "2023-12-20T16:55:00.444Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c77fde52e4cd69f442d"
+    },
+    "name": "Alberto",
+    "lastName": "Contador",
+    "email": "Alberto@Contador.com",
+    "password": "$2b$10$03SpsyHZOI6KqGweSjbxhuNJ372oENRSi7m.h/JmpP5GRf9UncskK",
+    "date": {
+      "$date": "2023-12-20T16:55:19.330Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c84fde52e4cd69f442f"
+    },
+    "name": "Rafa",
+    "lastName": "Nadal",
+    "email": "Rafa@Nadal.com",
+    "password": "$2b$10$s/kKPnMMKySCGk8JD00/.e5pGAHDKE/Tybkxk6oR8wuahYpq.52US",
+    "date": {
+      "$date": "2023-12-20T16:55:32.840Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65831c93fde52e4cd69f4431"
+    },
+    "name": "Pau",
+    "lastName": "Gasol",
+    "email": "Pau@Gasol.com",
+    "password": "$2b$10$lEjdei5Bv8gjzPOsO1lvSuYxTENl2KXe/L6MGroUJkNRH3Ey1luci",
+    "date": {
+      "$date": "2023-12-20T16:55:47.692Z"
+    },
+    "__v": 0
+  }
+]

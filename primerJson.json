@@ -1,0 +1,434 @@
+[
+  {
+    "_id": {
+      "$oid": "65832c645a6d641157752848"
+    },
+    "title": "Smatphone Conference",
+    "description": "Conferencia sobre las ultimas novedades en smatphones",
+    "location": "Almansa",
+    "ticketPrice": 15,
+    "attendees": [
+      {
+        "$oid": "65831bbafde52e4cd69f441d"
+      },
+      {
+        "$oid": "65831bfefde52e4cd69f441f"
+      },
+      {
+        "$oid": "65831c16fde52e4cd69f4421"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:03:16.623Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832dd55a6d64115775284a"
+    },
+    "title": "Tech Innovations Summit",
+    "description": "Summit destacando las últimas innovaciones tecnológicas",
+    "location": "Barcelona",
+    "ticketPrice": 20,
+    "attendees": [
+      {
+        "$oid": "65831c93fde52e4cd69f4431"
+      },
+      {
+        "$oid": "65831c84fde52e4cd69f442f"
+      },
+      {
+        "$oid": "65831c77fde52e4cd69f442d"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:09:25.958Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832e015a6d64115775284c"
+    },
+    "title": "Fashion Forward Expo",
+    "description": "Expo de moda que presenta las tendencias más recientes",
+    "location": "Madrid",
+    "ticketPrice": 25,
+    "attendees": [
+      {
+        "$oid": "65831c16fde52e4cd69f4421"
+      },
+      {
+        "$oid": "65831c26fde52e4cd69f4423"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:10:09.343Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832e205a6d64115775284e"
+    },
+    "title": "Green Energy Symposium",
+    "description": "Simposio sobre energías renovables y sostenibilidad",
+    "location": "Valencia",
+    "ticketPrice": 10,
+    "attendees": [
+      {
+        "$oid": "65831c44fde52e4cd69f4427"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:10:40.505Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832eab5a6d641157752850"
+    },
+    "title": "Startup Pitch Day",
+    "description": "Día dedicado a las presentaciones de startups emergentes",
+    "location": "Bilbao",
+    "ticketPrice": 15,
+    "attendees": [
+      {
+        "$oid": "65831bbafde52e4cd69f441d"
+      },
+      {
+        "$oid": "65831bfefde52e4cd69f441f"
+      },
+      {
+        "$oid": "65831c26fde52e4cd69f4423"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:12:59.057Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832ed25a6d641157752852"
+    },
+    "title": "Health and Wellness Expo",
+    "description": "Expo dedicada a la salud y el bienestar personal",
+    "location": "Málaga",
+    "ticketPrice": 18,
+    "attendees": [
+      {
+        "$oid": "65831c44fde52e4cd69f4427"
+      },
+      {
+        "$oid": "65831c53fde52e4cd69f4429"
+      },
+      {
+        "$oid": "65831c64fde52e4cd69f442b"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:13:38.949Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832ef85a6d641157752854"
+    },
+    "title": "Art and Design Symposium",
+    "description": "Simposio explorando las últimas tendencias en arte y diseño",
+    "location": "Granada",
+    "ticketPrice": 22,
+    "attendees": [
+      {
+        "$oid": "65831c93fde52e4cd69f4431"
+      },
+      {
+        "$oid": "65831c84fde52e4cd69f442f"
+      },
+      {
+        "$oid": "65831c77fde52e4cd69f442d"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:14:16.038Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832f125a6d641157752856"
+    },
+    "title": "Future of AI Conference",
+    "description": "Conferencia sobre el futuro de la inteligencia artificial",
+    "location": "Zaragoza",
+    "ticketPrice": 25,
+    "attendees": [
+      {
+        "$oid": "65831c64fde52e4cd69f442b"
+      },
+      {
+        "$oid": "65831c53fde52e4cd69f4429"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:14:42.279Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832f2d5a6d641157752858"
+    },
+    "title": "Automotive Innovation Expo",
+    "description": "Expo destacando las últimas innovaciones en la industria automotriz",
+    "location": "Córdoba",
+    "ticketPrice": 20,
+    "attendees": [
+      {
+        "$oid": "65831bbafde52e4cd69f441d"
+      },
+      {
+        "$oid": "65831bfefde52e4cd69f441f"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:15:09.819Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832f465a6d64115775285a"
+    },
+    "title": "Music Festival Showcase",
+    "description": "Festival de música destacando diversos géneros y artistas",
+    "location": "Alicante",
+    "ticketPrice": 35,
+    "attendees": [
+      {
+        "$oid": "65831c16fde52e4cd69f4421"
+      },
+      {
+        "$oid": "65831c26fde52e4cd69f4423"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:15:34.778Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832f615a6d64115775285c"
+    },
+    "title": "Educational Technology Summit",
+    "description": "Cumbre sobre tecnología educativa y metodologías innovadoras",
+    "location": "Salamanca",
+    "ticketPrice": 15,
+    "attendees": [
+      {
+        "$oid": "65831c38fde52e4cd69f4425"
+      },
+      {
+        "$oid": "65831c44fde52e4cd69f4427"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:16:01.660Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832f7b5a6d64115775285e"
+    },
+    "title": "Educational Technology Summit",
+    "description": "Cumbre sobre tecnología educativa y metodologías innovadoras",
+    "location": "Salamanca",
+    "ticketPrice": 15,
+    "attendees": [
+      {
+        "$oid": "65831c38fde52e4cd69f4425"
+      },
+      {
+        "$oid": "65831c44fde52e4cd69f4427"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:16:27.552Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832f955a6d641157752860"
+    },
+    "title": "Global Marketing Forum",
+    "description": "Foro global sobre estrategias y tendencias de marketing",
+    "location": "Toledo",
+    "ticketPrice": 18,
+    "attendees": [
+      {
+        "$oid": "65831c53fde52e4cd69f4429"
+      },
+      {
+        "$oid": "65831c64fde52e4cd69f442b"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:16:53.653Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832faf5a6d641157752862"
+    },
+    "title": "Science and Technology Fair",
+    "description": "Feria de ciencia y tecnología con exhibiciones interactivas",
+    "location": "Pamplona",
+    "ticketPrice": 12,
+    "attendees": [
+      {
+        "$oid": "65831c77fde52e4cd69f442d"
+      },
+      {
+        "$oid": "65831c84fde52e4cd69f442f"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:17:19.571Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832fcf5a6d641157752864"
+    },
+    "title": "Entrepreneurship Workshop Series",
+    "description": "Serie de talleres sobre emprendimiento y desarrollo de negocios",
+    "location": "Segovia",
+    "ticketPrice": 20,
+    "attendees": [
+      {
+        "$oid": "65831c93fde52e4cd69f4431"
+      },
+      {
+        "$oid": "65831c84fde52e4cd69f442f"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:17:51.262Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65832fe55a6d641157752866"
+    },
+    "title": "Travel and Adventure Expo",
+    "description": "Expo dedicada a destinos de viaje y experiencias aventureras",
+    "location": "Murcia",
+    "ticketPrice": 15,
+    "attendees": [
+      {
+        "$oid": "65831c77fde52e4cd69f442d"
+      },
+      {
+        "$oid": "65831c64fde52e4cd69f442b"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:18:13.256Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658330035a6d641157752868"
+    },
+    "title": "Digital Marketing Masterclass",
+    "description": "Clase magistral sobre estrategias avanzadas de marketing digital",
+    "location": "Girona",
+    "ticketPrice": 22,
+    "attendees": [
+      {
+        "$oid": "65831c64fde52e4cd69f442b"
+      },
+      {
+        "$oid": "65831c53fde52e4cd69f4429"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:18:43.068Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6583301c5a6d64115775286a"
+    },
+    "title": "Innovation in Agriculture Summit",
+    "description": "Cumbre sobre innovaciones en la agricultura y la agrotecnología",
+    "location": "Huelva",
+    "ticketPrice": 18,
+    "attendees": [
+      {
+        "$oid": "65831c44fde52e4cd69f4427"
+      },
+      {
+        "$oid": "65831c38fde52e4cd69f4425"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:19:08.168Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658330305a6d64115775286c"
+    },
+    "title": "Space Exploration Symposium",
+    "description": "Simposio sobre la exploración del espacio y descubrimientos recientes",
+    "location": "Jaén",
+    "ticketPrice": 30,
+    "attendees": [
+      {
+        "$oid": "65831c26fde52e4cd69f4423"
+      },
+      {
+        "$oid": "65831c16fde52e4cd69f4421"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:19:28.897Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658330465a6d64115775286e"
+    },
+    "title": "Gaming Expo and Tournament",
+    "description": "Expo de juegos y torneo destacando los últimos lanzamientos",
+    "location": "Cadiz",
+    "ticketPrice": 25,
+    "attendees": [
+      {
+        "$oid": "65831bfefde52e4cd69f441f"
+      },
+      {
+        "$oid": "65831bbafde52e4cd69f441d"
+      }
+    ],
+    "date": {
+      "$date": "2023-12-20T18:19:50.508Z"
+    },
+    "__v": 0
+  }
+]
