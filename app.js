@@ -9,6 +9,9 @@ const PORT = 3000;
 const userRouter = require("./router/userRoutes");
 const eventRouter = require("./router/eventsRoutes");
 
+const swaggerUi = require("swagger-ui-express");
+const swaggerJSDoc = require("./swagger/swaggerConfig");
+
 //esto nos permite obtener la informacion de configuracion de ".env"
 require("dotenv").config();
 
@@ -39,6 +42,8 @@ db.on("disconnected", () => {
 
 app.use("/users", userRouter);
 app.use("/events", eventRouter);
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerJSDoc));
 
 app.listen(PORT, () => {
   console.log(`Server running http://localhost:${PORT}`);
