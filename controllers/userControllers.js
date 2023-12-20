@@ -1,5 +1,7 @@
 const userModel = require("../models/userModels");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const { generateToken } = require("../utils/utils");
 
 const addUser = async (req, res) => {
   try {
@@ -35,4 +37,19 @@ const addUser = async (req, res) => {
   }
 };
 
-module.exports = addUser;
+const login = async (req, res) => {
+  try {
+    const user = await userModel.findOne({ email: req.body.email });
+    if (user) {
+      const validatePassword = await bcrypt.compare(
+        req.body.password,
+        user.password
+      );
+      if (validatePassword) {
+        const token = generateToken({});
+      }
+    }
+  } catch (error) {}
+};
+
+module.exports = { addUser, login };
