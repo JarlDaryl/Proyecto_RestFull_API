@@ -37,7 +37,7 @@ const addUser = async (req, res) => {
   }
 };
 
-const signup = async (req, res) => {
+const login = async (req, res) => {
   try {
     const user = await userModel.findOne({ email: req.body.email });
     if (user) {
@@ -46,18 +46,20 @@ const signup = async (req, res) => {
         user.password
       );
       if (validatePassword) {
-        const token = generateToken({d: user.id, email: user.email},
+        const token = generateToken({id: user.id, email: user.email},
           false
           );
           const token_refresh = generateToken(
             { id: user.id, email: user.email},
             true
           );
-          return res.status(201).json({
+          return res.status(200).json({
             status: "Success",
             message: "Usuario logueado correctamente",
             data: {
-              user: user,
+              id: user.id,
+              name: user.name,
+              email: user.email,
               token: token,
               token_refresh: token_refresh,
             },
@@ -76,59 +78,11 @@ const signup = async (req, res) => {
     });
   } catch (error) {
     res
-    .status(404)
-    .json({ status: "Failed", data: null, error: error.message });
+    .status(500)
+    .json({ error: "Error al hacer login", data: null, error: error.message });
   }
 };
 
 
+module.exports = { addUser, login };
 
-// const getAttendees = async(req, res) => {
-//   try {
-//     const user = await userModel.findOne({ email: req.body.email });
-//     if (user) {
-//       const validatePassword = await bcrypt.compare(
-//         req.body.password,
-//         user.password
-//       );
-//       if (validatePassword) {
-//         const token = generateToken({d: user.id, email: user.email},
-//           false);
-//           const token_refresh = generateToken(
-//             { id: user.id, email: user.email},
-//             true
-//           );
-//           return res.status(201).json({
-//             status: "Success",
-//             message: "Usuario logueado correctamente",
-//             data: {
-//               user: user,
-//               token: token,
-//               token_refresh: token_refresh,
-//             },
-//           });
-//       }
-//       if(user){
-
-//       }
-//       return res.status(400).json({
-//         status: "failed",
-//         data: null,
-//         error: "Usuario y contraseña no encontrado",
-//       });
-//     }
-//     return res.status(400).json({
-//       status: "failed",
-//       data: null,
-//       error: "Usuario y contraseña no encontrado",
-//     });
-//   } catch (error) {
-//     res
-//     .status(404)
-//     .json({ status: "Failed", data: null, error: error.message });
-//   }
-// }
-
-
-module.exports = { addUser, signup };
-// getAttendees
